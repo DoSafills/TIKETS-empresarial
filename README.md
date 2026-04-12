@@ -42,8 +42,8 @@ El sistema está pensado como una base escalable, comenzando con una implementac
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/TU-USUARIO/NOMBRE-REPO.git
-cd NOMBRE-REPO
+git clone https://github.com/DoSafills/TIKETS-empresarial.git
+cd TIKETS-empresarial
 ```
 
 ### 2. Instalar dependencias
@@ -218,7 +218,7 @@ src/
 
 ### Infraestructura
 
-* Despliegue en servidor
+* Despliegue 
 * Acceso en red local de empresa
 
 ---
@@ -227,16 +227,4 @@ src/
 
 Este sistema simula un entorno real de mesa de ayuda (Help Desk), donde múltiples usuarios reportan incidencias y un equipo técnico las gestiona de forma organizada.
 
-Es una base sólida para evolucionar hacia un sistema empresarial completo.
 
----
-
-## 👨‍💻 Autor
-
-Proyecto desarrollado como sistema académico orientado a simulación empresarial y escalabilidad real.
-
----
-
-## 📄 Licencia
-
-Uso académico / educativo.
