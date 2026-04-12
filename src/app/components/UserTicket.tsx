@@ -7,12 +7,12 @@ import {
   CheckCircle,
   Loader,
 } from "lucide-react";
-import { Button } from "./ui/button";
-import { Label } from "./ui/label";
-import { Input } from "./ui/input";
-import { Textarea } from "./ui/textarea";
+import { Button } from "../ui/button";
+import { Label } from "../ui/label";
+import { Input } from "../ui/input";
+import { Textarea } from "../ui/textarea";
 import { toast } from "sonner";
-import { Badge } from "./ui/badge";
+import { Badge } from "../ui/badge";
 import TicketChat from "./TicketChat";
 
 interface Ticket {
