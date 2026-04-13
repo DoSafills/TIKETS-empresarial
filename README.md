@@ -66,29 +66,6 @@ npm install class-variance-authority
 npm install next-themes
 ```
 
-### 4. TailwindCSS (si no está configurado)
-
-```bash
-npm install -D tailwindcss@3.4.1 postcss autoprefixer
-npx tailwindcss init -p
-```
-
-Configurar `tailwind.config.js`:
-
-```js
-content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-```
-
-Agregar en `index.css`:
-
-```css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-```
-
----
-
 ### 5. Ejecutar el proyecto
 
 ```bash
