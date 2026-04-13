@@ -49,6 +49,7 @@ cd TIKETS-empresarial
 ### 2. Instalar dependencias
 
 ```bash
+npm install vite
 npm install
 ```
 
