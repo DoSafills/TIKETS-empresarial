@@ -46,11 +46,18 @@ git clone https://github.com/DoSafills/TIKETS-empresarial.git
 cd TIKETS-empresarial
 ```
 
-### 2. Instalar dependencias
+### 2. Instalar dependencias por carpeta
 
+cd frontend
 ```bash
 npm install vite
 npm install
+```
+
+cd backend
+```bash
+npm init -y
+npm install express mysql2 cor
 ```
 
 ### 3. Dependencias importantes
@@ -69,8 +76,14 @@ npm install next-themes
 
 ### 5. Ejecutar el proyecto
 
+cd fronted
 ```bash
 npm run dev
+```
+
+cd backend
+```bash
+node server.js
 ```
 
 Abrir en navegador:
@@ -136,13 +149,23 @@ http://localhost:5173/tecnico
 ## 🔐 Seguridad (actual)
 
 * Acceso técnico con contraseña básica
-* Datos almacenados localmente (no seguro para producción)
+* Datos almacenados localmente
 
 ---
 
 ## 🏗️ Arquitectura Actual
 
 ```
+backend/
+│
+├── routes/
+│   ├── tickets.js
+│
+├── db.js
+├── server.js
+
+
+frontend/
 src/
 │
 ├── components/
@@ -159,17 +182,16 @@ src/
 
 ---
 
-## ⚠️ Limitaciones Actuales
+## ⚠️ Limitaciones Actuales POR CORREGIR
 
 * Uso de localStorage (no persistente en red)
-* Sin backend real
 * Sin autenticación real
 * No multiusuario real
 * No conexión entre dispositivos
 
 ---
 
-## 🔮 Futuras Mejoras
+## 🔮 Futuras Mejoras ESPERADAS
 
 ### Backend
 
